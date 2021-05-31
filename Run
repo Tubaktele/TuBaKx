@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cd $HOME/TuBaKx
+while(true) do
+rm -fr ../.telegram-cli
+screen -S TuBaKx -X kill
+screen -S TuBaKx ./TuBaKx
+done
