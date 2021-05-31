@@ -923,8 +923,8 @@ end
 
 if text == '• تحديث السورس ᜱ .' and Sudo_TuBaKx(msg) then
 os.execute('rm -rf TuBaKx.lua')
-os.execute('wget https://raw.githubusercontent.com/TuBaKxTeam/TuBaKx/master/TuBaKx.lua')
-os.execute('cd File_TuBaKx && wget https://raw.githubusercontent.com/TuBaKxTeam/TuBaKx/master/File_TuBaKx/Orders.lua')
+os.execute('wget https://raw.githubusercontent.com/Tubaktele/TuBaKx/master/TuBaKx.lua')
+os.execute('cd File_TuBaKx && wget https://raw.githubusercontent.com/Tubaktele/TuBaKx/master/File_TuBaKx/Orders.lua')
 sleep(0.5) 
 send(msg.chat_id_, msg.id_,'✥┆ تم تحديث السورس . 𖦲 ◜') 
 dofile('TuBaKx.lua')  
@@ -2069,8 +2069,8 @@ return false
 end 
 send(msg.chat_id_, msg.id_,'✥┆ جاري تحديث السورس.. 𖦲 ◜ ')
 os.execute('rm -rf TuBaKx.lua')
-os.execute('wget https://raw.githubusercontent.com/TuBaKxTeam/TuBaKx/master/TuBaKx.lua')
-os.execute('cd File_TuBaKx && wget https://raw.githubusercontent.com/TuBaKxTeam/TuBaKx/master/File_TuBaKx/Orders.lua')
+os.execute('wget https://raw.githubusercontent.com/Tubaktele/TuBaKx/master/TuBaKx.lua')
+os.execute('cd File_TuBaKx && wget https://raw.githubusercontent.com/Tubaktele/TuBaKx/master/File_TuBaKx/Orders.lua')
 sleep(0.5) 
 send(msg.chat_id_, msg.id_,'✥┆ تم تحديث السورس . 𖦲 ◜')
 dofile('TuBaKx.lua')  
