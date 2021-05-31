@@ -8041,8 +8041,8 @@ if text == ("تحديث السورس") and DevTuBaKx(msg) then
 send(msg.chat_id_,msg.id_,'◐︙تم التحديث')
 os.execute('rm -rf TuBaKx.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/TuBaKx/TuBaKx/master/TuBaKx.lua')
-os.execute('wget https://raw.githubusercontent.com/TuBaKx/TuBaKx/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/Tubaktele/TuBaKx/master/TuBaKx.lua')
+os.execute('wget https://raw.githubusercontent.com/Tubaktele/TuBaKx/master/start.lua')
 dofile('TuBaKx.lua')  
 return false
 end
